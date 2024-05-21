@@ -1,0 +1,182 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:PMingLiU;
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:"\@PMingLiU";
+	panose-1:2 1 6 1 0 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-family:"Aptos",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	layout-grid:18.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-TW style='word-wrap:break-word;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:18.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>#RedHat sos report</span></p>
+
+<p class=MsoNormal><span lang=EN-US>sudo sos report --all-logs --batch
+--tmp-dir=/var</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>From
+&lt;https://cloud.google.com/container-optimized-os/docs/how-to/sosreport&gt; </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US># sudo sosreport -a --all-logs</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Then the log will be stored: /var/tmp/</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US># sudo yum install sos</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Sosreport read guideline - Overview
+(visualstudio.com)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>#RedHat peacemaker issue: (crm_report)
+--Refer to How do I generate a crm_report from a RHEL 6 or 7 High Availability
+cluster node using pacemaker? - Red Hat Customer Portal</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>           # crm_report -f &quot;2014-04-10
+12:00:00&quot; </span></p>
+
+<p class=MsoNormal><span lang=EN-US>           # crm_report -f &quot;`date
+--date='7 days ago' +%Y-%m-%d' '%H:%M:%S`&quot;  -S</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>===================================================================================================================================================================</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>#SUSE supportconfig</span></p>
+
+<p class=MsoNormal><span lang=EN-US>sudo supportconfig -l</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>#SUSE hb report</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>hb_report -u root -f &quot;2023/08/23
+22:00&quot; -t &quot;2023/08/24 2:00&quot; /tmp/hb_report_log</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>What is a sosreport?</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>A sosreport is a command in Linux which
+collects system configuration and diagnostic information of your Linux VM. For
+example: running kernel version, loaded modules, and system and service
+configuration files.</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>This was originally only for Red Hat, but
+is now generally available in most Linux distributions</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>How to use it?</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>To run sosreport, the sos package should be
+installed if using Red Hat and sosreport package for Ubuntu. If for any reason
+the required package is not installed, then use below commands to install it:</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>Redhat:</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US># yum install sos</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>Ubuntu:</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US># apt-get install sosreport</span></p>
+
+</div>
+
+</body>
+
+</html>
